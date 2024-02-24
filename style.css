@@ -9,6 +9,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 em {
   color: #a5b4fc;
   font-style: normal;
@@ -35,10 +39,17 @@ li {
   background-color: white;
 }
 
+.entete a:hover,
+.pied-de-page a:hover {
+}
+
 .cta {
   background: linear-gradient(#8e86b5, #acaeed);
   color: white;
   border-radius: 50px;
+}
+.cta:hover {
+  background: linear-gradient(#696484, #8788BA);
 }
 
 .carre-contenu {
