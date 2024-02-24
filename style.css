@@ -5,3 +5,27 @@ a {
 .important {
   color: #a5b4fc;
 }
+
+h1 {
+    font-size: 3.5em;
+    color: #A5B4FC;
+}
+
+ul li, p {
+    font-family: 'Manrope', Courier, monospace;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+em {
+    color: #a5b4fc;
+    font-style: normal;
+}
+
+
+ul li {
+    font-size: 1em;
+}
+
