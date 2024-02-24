@@ -9,30 +9,54 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
 </head>
+<!-- 
+À partir de cette base de code, vous allez :
 
+    utiliser  flex  pour avoir le logo en haut à gauche de la page, et les liens de navigation à droite dans l’en-tête ;
+
+    réagencer les éléments pour avoir le titre de la page d'accueil, le paragraphe, et le lien ayant la classe "CTA" à gauche, et la photo à droite ;
+
+    importer les images dans la page d'accueil, et créer une grille d'images avec deux rangées de 3 images chacune. 
+ -->
 <body>
     <header>
         <nav>
             <img src="images/logo.png" alt="Logo Robbie Lens" >
-            <a href="index.html">Accueil</a>
-            <a href="a-propos.html">À propos</a>
+            <div>
+                <a href="index.html">Accueil</a>
+                <a href="a-propos.html">À propos</a>                
+            </div>
         </nav>
     </header>
     <main>
         <section>
-            <h1>Robbie Lens Photographie</h1>
-            <p>
-                Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis
-                plus de 5 ans maintenant, j’exerce mon métier avec la passion
-                qui m’anime : capturer l’essence de chaque instant.
-            </p>
             <img src="images/robbie-lens.png" alt="Portrait avec effet de la photographe Robbie Lens" >
             <div>
-                <a href="" class="cta">UN PROJET ? ÉCRIVEZ-MOI</a>
+                <h1>Robbie Lens Photographie</h1>
+                <p>
+                    Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis
+                    plus de 5 ans maintenant, j’exerce mon métier avec la passion
+                    qui m’anime : capturer l’essence de chaque instant.
+                </p>
+                <div>
+                    <a href="" class="cta">UN PROJET ? ÉCRIVEZ-MOI</a>
+                </div>                
             </div>
         </section>
-        <section>
-            <h2>Mon dernier projet</h2>
+        <section class="grid">
+            <div class="grid-img">
+                <h2>Mon dernier projet</h2>
+                <div>
+                    <img src="images/accueil/element-1.png" alt="element-1.png" >
+                    <img src="images/accueil/element-2.png" alt="element-2.png" >
+                    <img src="images/accueil/element-3.png" alt="element-3.png" >
+                </div>
+                <div>
+                    <img src="images/accueil/element-4.png" alt="element-4.png" >
+                    <img src="images/accueil/element-5.png" alt="element-5.png" >
+                    <img src="images/accueil/element-6.png" alt="element-6.png" >
+                </div>
+            </div>
         </section>
     </main>
     <footer>
