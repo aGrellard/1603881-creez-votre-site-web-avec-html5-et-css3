@@ -40,4 +40,62 @@
 .section-contact h2 {
   color: #a5b4fc;
   text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.section-contact form {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin: auto;
+  gap: 1rem;
+  color: #fff;
+}
+.section-contact form > div:first-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.section-contact form button {
+  background: linear-gradient(#696484, #8788ba);
+  color: white;
+  border: 0;
+  border-radius: 50px;
+  padding: 20px 30px;
+  align-self: center;
+  width: 50%;
+  margin: auto;
+  cursor: pointer;
+}
+.section-contact form label {
+}
+.container-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.container-input:first-child {
+  margin-right: 1rem;
+}
+.container-input label{
+  width: 100%;
+}
+.container-input input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #a5b4fc;
+}
+.section-contact form button:hover {
+  background: linear-gradient(#8e86b5, #acaeed);
+}
+.section-contact form textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #a5b4fc;
+  resize: none;
 }
