@@ -41,6 +41,7 @@ li {
 
 .entete a:hover,
 .pied-de-page a:hover {
+  opacity: 0.5;
 }
 
 .cta {
@@ -50,6 +51,7 @@ li {
 }
 .cta:hover {
   background: linear-gradient(#696484, #8788BA);
+  text-decoration: none;
 }
 
 .carre-contenu {
